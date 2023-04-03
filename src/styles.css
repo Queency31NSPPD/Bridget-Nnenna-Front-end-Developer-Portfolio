@@ -1,22 +1,44 @@
-body{
-background: #f9f7fe;
-}
+
 
 h1{
-font-family: 'Poppins',
-        sans-serif;
-        font-size: bold;
-        font-weight: 700px;
-        text-align: center;
+font-family: 'Playfair Display',
+      serif;
+        font-weight: bold;
+        color: black;
+        font-size: 96px;
+       
 }
     
   h2{
-font-family: 'Playfair Display',
-        serif;
-        font-size: medium;
-        font-weight: 500;
-        text-align: center;
-  } 
-  .fa-twitter{
-        font-size: 200px;
+font-family: 'Poppins',
+            sans-serif;
+        font-weight:medium;
+        font-size: 24px;
+        line-height: 2;
+
+       
   }
+
+  .hero p{
+font-family: 'Poppins',
+            sans-serif;
+            font-weight: bold;
+            font-size: 36px;
+            margin: 0;
+            color: #564d80;
+  }
+
+.hero{
+      background: #f3f0f6;
+      text-align: center;
+      padding: 160px 20px;
+}
+
+.btn-primary{
+      background: #6c63ff;
+      border-radius: 4px;
+      color: white;
+      font-size: 18px;
+      line-height: 27px;
+      padding: 15px 30px;
+}
