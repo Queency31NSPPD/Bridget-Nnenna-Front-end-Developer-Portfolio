@@ -42,3 +42,16 @@ font-family: 'Poppins',
       line-height: 27px;
       padding: 15px 30px;
 }
+
+.yogurt-h2{
+      font-size: 64px;
+      font-weight: bold;
+}
+
+p{
+      font-weight: medium;
+      font-size: 16px;
+      line-height: 1.7;
+      
+}
+
