@@ -60,10 +60,37 @@ p{
       padding: 120px 60px;
 }
 
+.about-me-page h1{
+      font-size: 60px;
+      line-height: 80px;
+      font-family: 'Playfair Display',
+            serif;
+}
+
+.about-me-page h2{
+      font-size: 18px;
+      font-family: 'Poppins',
+            sans-serif;
+}
+
+.about-me-page{
+padding: 120px 60px;
+text-align: center;
+padding: 0;
+}
+
+.about-me-page img{
+width: 300px;
+}
+
+.about-me-page-content{
+      margin: 30px;
+}
+
 @media (max-width: 900px) {
       h1{
             font-size: 44px;
-            line-height: 2;
+            line-height: 56px;
       }
        .yogurt-h2{
             font-size: 40px;
@@ -75,4 +102,11 @@ p{
       .hero {
                   padding: 80px 20px;
             }
+}
+
+@media (max-width: 900px){
+       .about-me-page {
+      text-align: center;
+      padding: 0;
+}
 }
