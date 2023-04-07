@@ -87,6 +87,27 @@ width: 300px;
       margin: 30px;
 }
 
+.work-page-content h1{
+font-family: 'Playfair Display',
+            serif;
+      font-weight: bold;
+      color: black;
+      font-size: 60px;
+      line-height: 80px;
+}
+
+.work-page-content h3{
+    font-size: 24px; 
+font-family: 'Poppins',
+      sans-serif;
+line-height: 1.5;
+margin: 20px 0 0;
+}
+
+.work-page-content p{
+     font-size: 14px;
+}
+
 @media (max-width: 900px) {
       h1{
             font-size: 44px;
@@ -108,5 +129,18 @@ width: 300px;
        .about-me-page {
       text-align: center;
       padding: 0;
+}
+}
+
+@media (max-width: 900px) {
+
+
+      .work-page-content { 
+            text-align: center;
+            padding: 0;
+      }
+.work-page-content h1 {
+      font-size: 20px;
+      line-height: 2;
 }
 }
