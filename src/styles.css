@@ -183,7 +183,7 @@ footer .social-links a{
      transition: all 100ms ease-in-out; 
 }
 
-small{
+.small{
       text-align: center;
       font-size:15px;
       padding-bottom: 80px;
@@ -230,4 +230,8 @@ footer .btn-primary{
       padding:0 ;
       font-size: 12px;
 }
+
+.small {
+      font-size: 10px;
+
 }
