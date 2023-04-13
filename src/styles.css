@@ -103,6 +103,7 @@ nav li{
       list-style: none;
       line-height: 42px;
       margin-left: 15px;
+      font-weight: bolder;
 }
 
 nav ul{
@@ -234,4 +235,5 @@ footer .btn-primary{
 .small {
       font-size: 10px;
 
+}
 }
