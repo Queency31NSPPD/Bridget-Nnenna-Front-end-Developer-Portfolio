@@ -190,6 +190,10 @@ footer .social-links a{
       padding-bottom: 80px;
 }
 
+.Sweet-Weather-App{
+      height: 825px;
+      width: 600px;
+}
 
 @media (max-width: 900px) {
       .hero h1{
@@ -237,4 +241,10 @@ footer .btn-primary{
       font-size: 10px;
 
 }
+
+.Sweet-Weather-App {
+      height: auto;
+      width: auto;
+}
+
 }
