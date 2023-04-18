@@ -85,7 +85,7 @@ margin: 30px;
 }
 
 .headshot{
-width: 300px;
+width: 500px;
 }
 
 nav{
@@ -191,8 +191,7 @@ footer .social-links a{
 }
 
 .Sweet-Weather-App{
-      height: 825px;
-      width: 700px;
+      
       border-radius: 20px;
 }
 
@@ -240,16 +239,6 @@ footer .btn-primary{
 
 .small {
       font-size: 10px;
-
-}
-
-.Sweet-Weather-App {
-      height: auto;
-      width: auto;
-}
-
-.headshot {
-      width: 300px;
 
 }
 
