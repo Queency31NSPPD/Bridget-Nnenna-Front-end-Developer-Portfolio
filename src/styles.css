@@ -1,5 +1,6 @@
 body{
       background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+      
 }
 .hero h1{
 font-family: 'Playfair Display',
@@ -30,7 +31,7 @@ font-family: 'Poppins',
             color: #564d80;
   }
 
-  h4{
+   h4{
       font-size: 48px;
   }
 
@@ -38,6 +39,23 @@ font-family: 'Poppins',
       background: #f3f0f6;
       text-align: center;
       padding: 160px 20px;
+}
+
+.para p{
+      font-size: 15px;
+      font-weight: lighter;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      line-height: 1;
+      
+}
+.para a{
+      background: #6c63ff;
+            border-radius: 4px;
+            color: white;
+            font-size: 18px;
+            line-height: 27px;
+            padding: 15px 30px;
+            margin-left: 150px;
 }
 
 .btn-primary{
@@ -49,33 +67,13 @@ font-family: 'Poppins',
       padding: 15px 30px;
 }
 
-.images-h2{
-      font-size: 48px;
-      font-weight: bold;
-}
-
 p{
       font-weight: medium;
       font-size: 16px;
-      line-height: 30px;
-      
 }
 
 .project-description{
       padding: 120px 60px;
-}
-
-.content h1{
-      font-size: 60px;
-      line-height: 80px;
-      font-family: 'Playfair Display',
-            serif;
-}
-
-.content h2{
-      font-size: 18px;
-      font-family: 'Poppins',
-            sans-serif;
 }
 
 .content{
@@ -128,22 +126,10 @@ nav li.active a, nav a:hover{
       sans-serif;
       font-weight: bold;
       color: black;
-      font-size: 60px;
-      line-height: 80px;
+      font-size: 30px;
+            line-height: 1;
+            margin-bottom: 60px;
 }
-
-.content h3{
-    font-size: 24px; 
-font-family: 'Poppins',
-      sans-serif;
-line-height: 1.5;
-margin: 20px 0 0;
-}
-
-.content p{
-     font-size: 14px;
-}
-
 footer h3{
       margin-top: 5px;
       margin-bottom: 0;
@@ -191,9 +177,151 @@ footer .social-links a{
       padding-bottom: 80px;
 }
 
-.Sweet-Weather-App{
-      
-      border-radius: 20px;
+.container {
+      max-width: 1400px;
+      margin: 0 auto;
+}
+header {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(/images/Dublin.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #ffffff;
+      padding: 200px 0;
+      text-align: center;
+}
+header h3 {
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.5;
+      letter-spacing: 4px;
+      margin: 0;
+}
+header h1 {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 1.5;
+      margin: 30px 0;
+}
+header h2 {
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 1.5;
+      margin: 0;
+}
+header a {
+      background: #ffffff;
+      color: #272044;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      line-height: 1.5;
+      margin-top: 32px;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+main {
+      padding-top: 90px;
+      }
+main h2 {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+margin: 0;
+letter-spacing: 5px;
+color: #64626a;
+opacity: 0.3px;
+text-transform: uppercase;
+            }
+     main h3 {
+           color: #272044;
+           font-size: 40px;
+           font-weight: 700;
+           line-height: 1.5;
+           margin: 0;
+     }
+main p {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #272044;
+opacity: 0.7;
+}
+main h4 {
+      color: #272044;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.5;
+      display: block;
+}
+main h5 {
+      color: #272044;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.5;
+      display: block;
+}
+.grid-3-columns {
+      grid-template-columns: 1fr 1fr 1fr;
+}
+.grid {
+   
+      grid-gap: 64px;
+}
+.grid-2-columns {
+      grid-template-columns: 1fr 1fr;
+}
+section {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 100px;
+}
+section.secondary {
+      background: #f8f8f8;
+}
+.img-responsive {
+      max-width: 100%;
+      display: block;
+}
+.card {
+      background: #ffffff;
+      margin: 30px 0;
+      display: block;
+}
+.card-header.grid {
+      grid-gap: 0;
+}
+.card img {
+      aspect-ratio: 1/1;
+}
+.card-body {
+      padding: 30px;
+}
+.card-footer {
+      padding: 0 30px 30px;
+}
+
+.embed {
+      width: 100%;
+      aspect-ratio: 1/1;
+
+}
+.btn-y {
+      background-color: #462cb3;
+      color: #ffffff;
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 21px;
+      letter-spacing: 3px;
+      padding: 16px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-top: 5px;
 }
 
 @media (max-width: 900px) {
@@ -205,6 +333,8 @@ footer .social-links a{
        .hero h2{
             font-size: 40px;
       }
+
+
       .project-description {
             padding: 0;
             text-align: center;
@@ -242,10 +372,8 @@ footer .btn-primary{
       font-size: 10px;
 
 }
-
-h6{
-      font-size: 15px;
-      margin-right: 10px;
+.embed {
+      aspect-ratio: 16/9;
 }
 
 }
