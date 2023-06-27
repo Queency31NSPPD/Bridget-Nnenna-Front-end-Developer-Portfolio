@@ -268,7 +268,7 @@ main h5 {
       grid-template-columns: 1fr 1fr 1fr;
 }
 .grid {
-   
+   display: grid;
       grid-gap: 64px;
 }
 .grid-2-columns {
@@ -333,7 +333,8 @@ section.secondary {
        .hero h2{
             font-size: 40px;
       }
-
+.grid {
+      display: block;}
 
       .project-description {
             padding: 0;
